@@ -1,0 +1,56 @@
+Bonjour Mr/Mme
+
+On est ravi que vous avez choisi notre application  “Global French Weather”.
+
+Notre application va vous permettre de voir les différents données météorologiques des territoires français autour du monde. L’application vous propose des graphiques adaptés pour chaque type de données dont que vous souhaitez vous renseigner.
+Il existe 9 type de données disponible en ce moment:
+Options de la température :
+
+     -t1 -> un graphique sous format barres d’erreur qui montre la température moyenne, maximalle et minimalle de chaque station dans l’ordre croissant des identifiants des stations.
+
+     -t2 -> un graphique sous format ligne simple qui montre la température moyenne qui se fait sur toute les station en fonction de la date et  de l’heure.
+
+     -t3 -> 
+
+Option de la pression :
+
+     -p1 -> un graphique sous format barres d’erreur qui montre la pression moyenne, maximalle et minimalle de chaque station dans l’ordre croissant des identifiants des stations.
+
+     -p2 -> un graphique sous format ligne simple qui montre la pression moyenne qui se fait sur toute les station en fonction de la date et  de l’heure.
+
+Autre :
+
+     -h -> un graphique sous format de carte interpolée et colorée qui montre l’altitude des différents stations dans le monde.
+
+     -w -> un graphique sous format diagramme de vecteur qui montre la direction moyenne et la vitesse moyenne par station.
+
+     -m -> un graphique sous format de carte interpolée et colorée qui montre l'humidité maximale pour chaque station.
+
+Il existe 6 régions possibles dont vous pouvez voir les données :
+     -F : (F)rance : France métropolitaine + Corse.
+     -G : (G)uyane française.
+     -S : (S)aint-Pierre et Miquelon : ile située à l’Est du Canada
+     -A : (A)ntilles.
+     -O : (O)céan indien.
+     -Q : antarcti(Q)ue. 
+ 
+Les erreurs possible:
+
+     1 -> aucune option n'est donnée à l'application
+
+     2 -> il manque un '-' devant l'option retournée en message d'erreur 
+
+     3 -> L'option entrée contient dans la syntaxe. Exemple : il exist d'autre lettre ou nombre après une option valable '-t22'
+
+     4 -> Plusieurs options pour les régions sont entrées
+
+     5 -> Le fichier entrée après l'option -f n'est pas valide (fichier csv) ou il n'y a pas de fichier et d'option -f. L'option -f est obligatoire.
+
+     6 -> La date entrée n'est pas valide. Veuillez lire le message d'erreur retourné
+
+     7 -> Le mode de tri choisi n'est pas valide ou il y en a plusieurs
+
+     8 -> L'option retournée n'existe pas 
+
+ 
+
