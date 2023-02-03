@@ -2,4 +2,18 @@
 
 Bonjour Mr/Mme
 
-On est ravi que vous avez choisi notre application  “Global French Weather”. GFW est une application qui vous permet de voir des graphiques reprèsentants des données métérologiques des territoires français autour du monde. 
+On est ravi que vous avez choisi notre application  “Global French Weather”. GFW est une application qui vous permet de voir des graphiques reprèsentants des données métérologiques des territoires français autour du monde.L'application accepte un fichier csv répartie par colonne de la façcon suivante:
+
+ID OMM station;Date;Pression au niveau mer;Direction du vent moyen 10 mn;Vitesse du vent moyen 10 mn;Humidité;Pression station;Variation de pression en 24 heures;Précipitations dans les 24 dernières heures;Coordonnees;Température (°C);Température minimale sur 24 heures (°C);Température maximale sur 24 heures (°C);Altitude;communes (code)
+
+Vous pouvez remarquez que les colonnes sont sépaées pars des ';' au lieu de de ',' comme la plupart des fichiers csv.
+
+Ressources utilisées:
+
+https://stackoverflow.com/questions/13648410/how-can-i-get-unique-values-from-an-array-in-bash
+https://www.youtube.com/watch?v=oPEnvuj9QrI&t=639s
+https://linuxhint.com/sed-command-to-delete-a-line/
+https://linuxhint.com/remove_characters_string_bash/
+https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiCoezrk_n8AhV5VKQEHbgYB7sQFnoECA0QAQ&url=https%3A%2F%2Fwww.digitalocean.com%2Fcommunity%2Ftutorials%2Farrays-in-shell-scripts&usg=AOvVaw2T0Jm1bApVImqg1Jr1Up4B
+
+
