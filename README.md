@@ -6,7 +6,7 @@ On est ravi que vous avez choisi notre application  “Global French Weather”.
 
 ID OMM station;Date;Pression au niveau mer;Direction du vent moyen 10 mn;Vitesse du vent moyen 10 mn;Humidité;Pression station;Variation de pression en 24 heures;Précipitations dans les 24 dernières heures;Coordonnees;Température (°C);Température minimale sur 24 heures (°C);Température maximale sur 24 heures (°C);Altitude;communes (code)
 
-L
+L'application est composée de deux partie.Une partie en bash script et une partie en C. Le script fait du filtrage du dossier csv en renvoie le dossier filtré à la partie C pour la trier. Le script récupère les données triées et appelle le logiciel gnuplot pour reprèsenter les données voulues.
 
 Vous pouvez remarquez que les colonnes sont sépaées pars des ';' au lieu de de ',' comme la plupart des fichiers csv.L'application à en ce momment neuf types de données que vous pouvez représenter en graphiques. Les voici:
 Options de la température :
@@ -50,10 +50,15 @@ https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ve
 Pour utiliser l'application, vous devez juste installer tout les fichiers sur le main de ce gethub. Veuillez mettre tous les fichiers récupérés dans un même dossier. Pour utiliser l'application, suivez les étapes suivantes :
 
 1.Ouvrez votre terminal
+
 2.Situez vous dans le dossier où vous avez mis tout les fichier de l'application
+
 3.Tapez : 'sudo apt-get install gnuplot' dans le terminal ( vous pouvez sautez cette étape si vous êtes sûr d'avoir gnuplot sur votre machine)
+
 4.Tapez : './GFW.sh -option -f fichier.csv'
+
 5.Enjoy
+
 
 
 
