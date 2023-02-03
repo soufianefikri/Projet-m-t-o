@@ -47,6 +47,10 @@ https://linuxhint.com/sed-command-to-delete-a-line/
 https://linuxhint.com/remove_characters_string_bash/
 https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiCoezrk_n8AhV5VKQEHbgYB7sQFnoECA0QAQ&url=https%3A%2F%2Fwww.digitalocean.com%2Fcommunity%2Ftutorials%2Farrays-in-shell-scripts&usg=AOvVaw2T0Jm1bApVImqg1Jr1Up4B
 
+Ce qui ne marche pas :
+l'option -t3
+
+
 Pour utiliser l'application, vous devez juste installer tout les fichiers sur le main de ce gethub. Veuillez mettre tous les fichiers récupérés dans un même dossier. Pour utiliser l'application, suivez les étapes suivantes :
 
 1.Ouvrez votre terminal
