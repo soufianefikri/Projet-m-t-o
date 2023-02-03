@@ -3,7 +3,7 @@ Bonjour Mr/Mme
 On est ravi que vous avez choisi notre application  “Global French Weather”.
 
 Notre application va vous permettre de voir les différents données météorologiques des territoires français autour du monde. L’application vous propose des graphiques adaptés pour chaque type de données dont que vous souhaitez vous renseigner.
-Il existe 9 type de données disponible en ce moment:
+Il existe 9 type de données disponible en ce moment( il faut mettre au moins une option sans restriction  pour le nombre maximale d'option):
 Options de la température :
 
      -t1 -> un graphique sous format barres d’erreur qui montre la température moyenne, maximalle et minimalle de chaque station dans l’ordre croissant des identifiants des stations.
@@ -26,7 +26,7 @@ Autre :
 
      -m -> un graphique sous format de carte interpolée et colorée qui montre l'humidité maximale pour chaque station.
 
-Il existe 6 régions possibles dont vous pouvez voir les données :
+Il existe 6 régions possibles dont vous pouvez voir les données (cette option n'est pas obligatoire mais une seule région est possible lors du choix de la région):
      -F : (F)rance : France métropolitaine + Corse.
      -G : (G)uyane française.
      -S : (S)aint-Pierre et Miquelon : ile située à l’Est du Canada
