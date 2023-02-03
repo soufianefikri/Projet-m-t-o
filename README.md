@@ -6,6 +6,8 @@ On est ravi que vous avez choisi notre application  “Global French Weather”.
 
 ID OMM station;Date;Pression au niveau mer;Direction du vent moyen 10 mn;Vitesse du vent moyen 10 mn;Humidité;Pression station;Variation de pression en 24 heures;Précipitations dans les 24 dernières heures;Coordonnees;Température (°C);Température minimale sur 24 heures (°C);Température maximale sur 24 heures (°C);Altitude;communes (code)
 
+L
+
 Vous pouvez remarquez que les colonnes sont sépaées pars des ';' au lieu de de ',' comme la plupart des fichiers csv.L'application à en ce momment neuf types de données que vous pouvez représenter en graphiques. Les voici:
 Options de la température :
 
@@ -13,7 +15,7 @@ Options de la température :
 
      -t2 -> un graphique sous format ligne simple qui montre la température moyenne qui se fait sur toute les station en fonction de la date et  de l’heure.
 
-     -t3 -> 
+     -t3 -> un graphique sous format multi-lignes 
 
 Option de la pression :
 
@@ -45,6 +47,13 @@ https://linuxhint.com/sed-command-to-delete-a-line/
 https://linuxhint.com/remove_characters_string_bash/
 https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiCoezrk_n8AhV5VKQEHbgYB7sQFnoECA0QAQ&url=https%3A%2F%2Fwww.digitalocean.com%2Fcommunity%2Ftutorials%2Farrays-in-shell-scripts&usg=AOvVaw2T0Jm1bApVImqg1Jr1Up4B
 
-Pour utiliser l'application, vous devez juste installer tout les fichiers sur le main de ce gethub. Veuillez mettre tous les fichiers récupérés dans un même dossier.
+Pour utiliser l'application, vous devez juste installer tout les fichiers sur le main de ce gethub. Veuillez mettre tous les fichiers récupérés dans un même dossier. Pour utiliser l'application, suivez les étapes suivantes :
+
+1.Ouvrez votre terminal
+2.Situez vous dans le dossier où vous avez mis tout les fichier de l'application
+3.Tapez : 'sudo apt-get install gnuplot' dans le terminal ( vous pouvez sautez cette étape si vous êtes sûr d'avoir gnuplot sur votre machine)
+4.Tapez : './GFW.sh -option -f fichier.csv'
+5.Enjoy
+
 
 
